@@ -1,7 +1,7 @@
 // src/api/recipeApi.js
 import axios from 'axios';
 
-const apiUrl = 'https://recipeappbackend-p6va.onrender.com/api/v1/recipe';
+const apiUrl = 'http://localhost:4000/api/v1/recipe';
 
 export const createRecipe = (data) => axios.post(`${apiUrl}/create`, data);
 export const getAllRecipes = () => axios.get(`${apiUrl}/gateall`);
