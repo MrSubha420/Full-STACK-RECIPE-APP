@@ -1,6 +1,6 @@
 # Recipe App Dashboard
 
-Welcome to the **Recipe App Dashboard**! This app allows users to create, view, update, and delete recipes with ease. It’s built with the MERN stack and uses **Cloudinary** for image storage. The frontend is styled with **Tailwind CSS** for a modern, responsive UI.
+Welcome to the **Recipe App Dashboard**! **live demo** [https://myrecipeappdashboard.netlify.app](https://myrecipeappdashboard.netlify.app) This app allows users to create, view, update, and delete recipes with ease. It’s built with the MERN stack and uses **Cloudinary** for image storage. The frontend is styled with **Tailwind CSS** for a modern, responsive UI.
 
 ---
 
