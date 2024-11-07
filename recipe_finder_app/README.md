@@ -23,11 +23,21 @@ A Flutter-based app that allows users to search for recipes based on ingredients
 ├── android/                # Android-specific files
 ├── ios/                    # iOS-specific files
 ├── lib/
-│   ├── main.dart           # Main entry point of the app and Home Page
-│   ├── recipe.dart         # Recipe model
-│   ├── recipe_service.dart # Services for API calls and local storage
-│   ├── recipe_detail.dart  # Detailed view of a recipe
-│   ├── favorites_screen.dart  # Saved favorites screen
+│   ├── models
+|   |     ├── recipe.dart  #recipe model
+│   ├── providers
+|   |     ├── recipe_provider.dart 
+│   ├── Services
+|   |     ├── recipe_api_service.dart  # Services for API calls and local storage
+│   ├── screens
+|   |     ├── recipe_detail_screen.dart  # Detailed view of a recipe
+|   |     ├── favorite_screen.dart   # saved and view your favourite recipe list
+|   |     ├── home_screen.dart   #hope screen your app
+│   ├── utils
+|   |     ├── shared_preferences_helper.dart
+|   ├── widgets
+|   |     ├── recipe_card.dart
+|   ├── main.dart
 │   
 ├── pubspec.yaml            # Flutter dependencies
 ├── README.md               # Project documentation
