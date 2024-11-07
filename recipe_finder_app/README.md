@@ -1,16 +1,66 @@
-# recipe_finder_app
+# Recipe Finder 🍽️
 
-A new Flutter project.
+A Flutter-based app that allows users to search for recipes based on ingredients they have at home, view detailed recipe information, save favorite recipes, and get random recipe suggestions.
 
-## Getting Started
+## Key Features 🚀
+- **Ingredient Input**: Input the ingredients you have on hand and find recipes that match.
+- **Recipe Search**: Fetch recipes from a public API based on the ingredients provided.
+- **Recipe Details**: View detailed information such as:
+  - Cooking time
+  - Number of servings
+  - Ingredients
+  - Step-by-step instructions
+  - Nutritional information
+- **Favorites**: Save recipes to favorites for quick access later using local storage.
+- **Random Recipe**: Get inspiration by viewing a random recipe suggestion.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Project Structure 📂
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+/recipe_finder
+├── android/                # Android-specific files
+├── ios/                    # iOS-specific files
+├── lib/
+│   ├── main.dart           # Main entry point of the app and Home Page
+│   ├── recipe.dart         # Recipe model
+│   ├── recipe_service.dart # Services for API calls and local storage
+│   ├── recipe_detail.dart  # Detailed view of a recipe
+│   ├── favorites_screen.dart  # Saved favorites screen
+│   
+├── pubspec.yaml            # Flutter dependencies
+├── README.md               # Project documentation
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting Started 🛠️
+
+### Prerequisites
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) installed on your machine.
+- 
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/MRSubha420/RecipeAPP/recipe_finder.git
+   cd recipe_finder_app
+   ```
+
+2. Install dependencies
+   ```bash
+   flutter pub get
+   ```
+
+3. Run the app
+  ```bash
+  flutter run 
+  ```
+
+## Live Demo 🎥
+https://github.com/user-attachments/assets/27b3d1b2-2de6-443a-ad0a-dbae3d37e619
+
+# IF you wank to .apk file for android 📂
+  - go to the directory - [https://github.com/MRSubha420/RecipeAPP/ApkFile](https://github.com/MrSubha420/RecipeAPP/tree/main/ApkFile).
+  - download base.apk 
+  - install the apk -> run it
