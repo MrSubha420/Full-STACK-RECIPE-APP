@@ -1,6 +1,6 @@
 🎯-RecipeApp-Backend
 
- step1 :
+ -step1 :
  ``` npm install ```
- step2 : 
+ -step2 : 
  ``` 
