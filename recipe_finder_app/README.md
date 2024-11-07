@@ -53,7 +53,7 @@ A Flutter-based app that allows users to search for recipes based on ingredients
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/MRSubha420/RecipeAPP/recipe_finder.git
+   git clone https://github.com/MrSubha420/Full-STACK-RECIPE-APP.git
    cd recipe_finder_app
    ```
 
