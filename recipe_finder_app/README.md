@@ -71,6 +71,6 @@ A Flutter-based app that allows users to search for recipes based on ingredients
 https://github.com/user-attachments/assets/27b3d1b2-2de6-443a-ad0a-dbae3d37e619
 
 # IF you wank to .apk file for android 📂
-  - go to the directory - [https://github.com/MRSubha420/RecipeAPP/ApkFile](https://github.com/MrSubha420/RecipeAPP/tree/main/ApkFile).
+  - go to the directory - [download](https://drive.google.com/file/d/1KfGjr9bezwOrnA0kdco0kcx3vu2A-TNR/view?usp=sharing).
   - download base.apk 
   - install the apk -> run it
